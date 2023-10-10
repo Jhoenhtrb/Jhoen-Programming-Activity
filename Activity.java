@@ -1,21 +1,20 @@
-package com.mycompany.jwho;
+package Activity;
 import java.util.Scanner;
-public class Jwho {
+public class Activity {
   public static void main(String[] args) {      
          int gwen=0;  
          int nord=0; int conv=0;
          int poly=0; int trig=0;
          Scanner input = new Scanner(System.in);
-while (true) {
-         System.out.println("Jhoenbadass Converter");
+    while (true) {
+        System.out.println("Jhoenbadass Converter");
         System.out.println("Please Select Option:");
         System.out.println( "  " + "1. Temperature Converter");
         System.out.println( "  " + "2. Odd/Even Number Checker");
         System.out.println( "  " + "3. Trigonometric Calculator");
         System.out.println( "  " + "4. Polygon Surface Area Calculator");
         int jho = input.nextInt();
-        while (true) {
-            {
+    
            if (jho == 1) {
             System.out.println("Please select to convert:");      
             System.out.println("  ");
@@ -65,9 +64,9 @@ while (true) {
                     System.out.println("The Answer is:" + " " + k4);
                     break;
             }
-            System.out.println("Continue Calculation?");   
-            System.out.println ("1. Yes" );       
-            System.out.println("2. Go back to temperature coverter");
+            System.out.println("Continue calculation or go back to converter");   
+            System.out.println ("press 1 to continue calculation" );       
+            System.out.println("press 2 to go back to converter");
             conv=input.nextInt();
             if (conv==1) {
             }    
@@ -75,16 +74,6 @@ while (true) {
                break;
            }
         }
-            System.out.println("Please Select");   
-            System.out.println ("1. Temperature Converter" );       
-            System.out.println("2. Main Menu");
-            conv=input.nextInt();
-            if (conv==1) {
-            }    
-            else if (conv==2) {
-               break;
-            }
-           }
            }
             if (jho == 2) {
             System.out.print("Enter a Number: ");
@@ -104,7 +93,6 @@ while (true) {
             System.out.println("2. Cosine (cos)");
             System.out.println("3. Tangent (tan)");
             int en = input.nextInt();
-            while (true) {
             switch (en) {
                 case 1:
                     System.out.println("Enter value in degree:");
@@ -132,17 +120,7 @@ while (true) {
                break;
             }
             }
-                          System.out.println("Please Select");   
-            System.out.println ("1. Trigonometric Calculator" );       
-            System.out.println("2. Main Menu");
-            trig=input.nextInt();
-            if (trig==1) {
-            }    
-            else if (trig==2) {
-               break;
             }
-        }
-        }
             else if (jho == 4) {
             while (true) { 
                 {
@@ -199,32 +177,22 @@ while (true) {
                break;
             }
             }
-                }
-            System.out.println("Please Select");   
-            System.out.println ("1.  Polygon Surface Area Calculator" );       
-            System.out.println("2. Main Menu");
-            poly=input.nextInt();
-            if (poly==1) {
-            }    
-            else if (poly==2) {
-               break;
-            }
-            }
             }
             
-            System.out.println("Please Select");   
-            System.out.println ("1. Continue Convertion" );       
-            System.out.println("2. Back to Main menu");
+            System.out.println("Continue calculation or go back to main menu");   
+            System.out.println ("1. Another convertion" );       
+            System.out.println("2. Main Menu");
             nord=input.nextInt();
             if (nord==1) {
             }    
             else if (nord==2) {
                break;
-}
-}
-            System.out.println("you sure?");   
-            System.out.println ("1 Main Menu" );       
-            System.out.println("2 Stop Calculation");
+        }
+        }
+        }
+            System.out.println("Do you want to go back to main menu?");   
+            System.out.println ("1. Continue" );       
+            System.out.println("2. Stop calculation");
             gwen=input.nextInt();
             if (gwen==1) {
             }    
@@ -232,6 +200,6 @@ while (true) {
                  System.out.println("okay stop nata");
                break; 
     }           
-    }               
+    }              
     }
-    }
+    } 

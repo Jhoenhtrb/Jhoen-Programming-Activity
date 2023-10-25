@@ -1,5 +1,0 @@
-Activity 1 - Calculation of 5 looping. 
-
-- (Jwho.java) - Na file ang activity nako!
-
-- (Activity) - Back up lang pero lahi ug function.

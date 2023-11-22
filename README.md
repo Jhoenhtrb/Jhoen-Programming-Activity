@@ -9,6 +9,6 @@ Activity 3 - UI?
 - (UI.java) - dinalian
 
 Activity 1 - V2
--Fibonacci
--MultiTable = multiplication table
--Prime number
+-  Fibonacci
+-  MultiTable = multiplication table
+-  Prime number

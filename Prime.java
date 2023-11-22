@@ -4,7 +4,7 @@ public class Activitiest {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        //back up u little shii 2,3,2
-      
+                //change lang ang 10 kung unsa imong prime number na gusto
                for(int i=2; i<10; i++){
                    boolean prime = true;
             

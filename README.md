@@ -6,3 +6,6 @@ Activity 1 - V2
 -  Fibonacci
 -  MultiTable = multiplication table
 -  Prime number
+
+Activity 3 - Store application
+- store.java

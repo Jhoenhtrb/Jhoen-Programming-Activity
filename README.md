@@ -9,3 +9,6 @@ Activity 1 - V2
 
 Activity 3 - Store application
 - store.java
+
+Final Activity - Loan payment calculator
+-CODEDUMP.java
